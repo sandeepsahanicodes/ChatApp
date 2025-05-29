@@ -25,7 +25,7 @@ struct Chats: Identifiable, Hashable {
 struct MockData {
     static let chats = Chats(id: 1, chats: chatList)
     static let chatList: [Chat] = [
-            Chat(id: 1, userAvatarUrl: "https://example.com/avatar1.png", messageSentTime: "10:24 AM", userName: "Alice", latestMessage: "Hey, are we still on for lunch?", messageCount: 2),
+            Chat(id: 1, userAvatarUrl: "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg", messageSentTime: "10:24 AM", userName: "Alice", latestMessage: "Hey, are we still on for lunch?", messageCount: 2),
             Chat(id: 2, userAvatarUrl: "https://example.com/avatar2.png", messageSentTime: "9:15 AM", userName: "Bob", latestMessage: "I'll send the files soon.", messageCount: 0),
             Chat(id: 3, userAvatarUrl: "https://example.com/avatar3.png", messageSentTime: "Yesterday", userName: "Charlie", latestMessage: "Nice work on the project!", messageCount: 5),
             Chat(id: 4, userAvatarUrl: "https://example.com/avatar4.png", messageSentTime: "8:00 AM", userName: "Diana", latestMessage: "See you at the gym.", messageCount: 1),
