@@ -33,5 +33,4 @@ struct MockMessageData {
         Message(id: 14, message: "Definitely will.", messageSendTime: "1:28 AM", messageType: .receiver, isMessageReceived: false),
         Message(id: 15, message: "Okay, talk later 👋", messageSendTime: "1:29 AM", messageType: .sender, isMessageReceived: false)
     ]
-    
 }
