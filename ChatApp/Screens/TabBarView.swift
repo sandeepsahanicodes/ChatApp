@@ -14,8 +14,8 @@ struct TabBarView: View {
             Tab("Chats", systemImage: "message") {
                 ChatsView(chats: MockData.chatList)
             }
-            Tab("Setting", systemImage: "gear") {
-                Text("Profile view")
+            Tab("Profile", systemImage: "person.crop.circle.fill") {
+                ProfileView()
             }
         }
     }
