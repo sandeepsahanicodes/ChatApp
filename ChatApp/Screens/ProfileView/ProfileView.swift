@@ -14,10 +14,9 @@ struct ProfileView: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    Image(systemName: "person.circle.fill")
-                        .resizable()
+                    UserAvatarRemoteImage(urlString: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s")
                         .frame(width: 120, height: 120)
-                        .aspectRatio(contentMode: .fill)
+                        .clipShape(.circle)
                     Text("Sandeep Sahani")
                         .font(.title)
                         .fontWeight(.semibold)

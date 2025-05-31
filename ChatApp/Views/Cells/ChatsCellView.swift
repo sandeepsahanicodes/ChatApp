@@ -12,26 +12,11 @@ struct ChatsCellView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
             
-            AsyncImage(url: URL(string: chat.userAvatarUrl)) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 60, height: 60)
-                    .clipShape(.circle)
-                    .padding(.leading)
-                
-            } placeholder: {
-                Image(systemName: "person.circle.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 60, height: 60)
-                    .padding(.leading)
-            }
+            UserAvatarRemoteImage(urlString: chat.userAvatarUrl)
+                .frame(width: 60, height: 60)
+                .clipShape(.circle)
+                .padding(.leading)
             
-//            Image(systemName: "person.circle.fill")
-//                .resizable()
-//                .frame(width: 60, height: 60)
-//                .padding(.leading)
             VStack(alignment: .leading, spacing: 4) {
                 HStack {
                     Text(chat.userName)
@@ -63,5 +48,5 @@ struct ChatsCellView: View {
 }
 
 #Preview {
-    ChatsCellView(chat: MockData.chatList[1])
+    ChatsCellView(chat: MockData.chatList[0])
 }

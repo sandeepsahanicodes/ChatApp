@@ -30,9 +30,10 @@ struct ChattingView: View {
                         }
             ToolbarItem(placement: .navigation) {
                     HStack {
-                        Image(systemName: "person.circle.fill")
-                            .resizable()
+                        UserAvatarRemoteImage(urlString: chat.userAvatarUrl)
+                            .aspectRatio(contentMode: .fill)
                             .frame(width: 30, height: 30)
+                            .clipShape(.circle)
                         Text(chat.userName)
                             .font(.callout)
                             .fontWeight(.semibold)
