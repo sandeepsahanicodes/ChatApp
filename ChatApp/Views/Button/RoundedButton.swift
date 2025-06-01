@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct RoundedButton: View {
+    let text: String
+    let backgroundColor: Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+            .frame(maxWidth: .infinity)
+            .frame(height: 45)
+            .fontWeight(.semibold)
+            .background(backgroundColor)
+            .foregroundStyle(.white)
+            .clipShape(.buttonBorder)
+            .padding(.horizontal, 16)
     }
 }
 
 #Preview {
-    RoundedButton()
+    RoundedButton(text: "Tap me", backgroundColor: .blue)
 }
