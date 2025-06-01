@@ -29,12 +29,7 @@ struct ProfileView: View {
                 Spacer()
                 
                 VStack {
-                    Button {
-                        print("Log out user!")
-                    } label: {
-                        RoundedButton(text: "Edit Profile", backgroundColor: .blue)
-                    }
-                    
+    
                     Button {
                         print("Log out user!")
                     } label: {
@@ -43,21 +38,17 @@ struct ProfileView: View {
                 }
                 .padding(.top, 30)
                 
-            }.navigationTitle("Profile")
+            }
+            .navigationTitle("Profile")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                NavigationLink {
+                    EditProfileView()
+                } label: {
+                    Text("Edit")
+                }
+            }
         }
-    }
-}
-
-struct RoundedButton: View {
-    let text: String
-    let backgroundColor: Color
-    var body: some View {
-        Text(text)
-            .fontWeight(.semibold)
-            .frame(width: 250, height: 40)
-            .background(backgroundColor)
-            .foregroundStyle(.white)
-            .clipShape(.buttonBorder)
     }
 }
 
