@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Resources/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameMessageBubbleBgReceiver</string>
+			<key>relativePath</key>
+			<string>./messageBubbleBgReceiver.colorset</string>
+			<key>swiftSymbol</key>
+			<string>messageBubbleBgReceiver</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Resources/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameMessageBubbleBgSender</string>
+			<key>relativePath</key>
+			<string>./messageBubbleBgSender.colorset</string>
+			<key>swiftSymbol</key>
+			<string>messageBubbleBgSender</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array/>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

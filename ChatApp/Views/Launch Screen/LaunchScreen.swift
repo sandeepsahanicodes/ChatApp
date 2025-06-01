@@ -9,7 +9,14 @@ import SwiftUI
 
 struct LaunchScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(systemName: "message.circle.fill")
+                .resizable()
+                .frame(width: 120, height: 120)
+            Text("ChatApp")
+                .font(.title)
+                .fontWeight(.semibold)
+        }
     }
 }
 

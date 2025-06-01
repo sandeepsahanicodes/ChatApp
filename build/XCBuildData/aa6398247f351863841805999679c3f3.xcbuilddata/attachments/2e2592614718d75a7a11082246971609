@@ -1,0 +1,168 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatApp-master.dia",
+    "emit-module-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatApp-master.swiftdeps"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/App/ChatAppApp.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppApp~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Enums/MessageType.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageType~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Model/Chat.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Chat~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Model/Message.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/Message~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Model/User.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/User~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Screens/Authentication/SignInView/SignInView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/SignInView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Screens/ChatsView/ChatsView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Screens/ChattingView/ChattingView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChattingView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Screens/ProfileView/ProfileView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ProfileView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Screens/TabBarView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/TabBarView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Utilities/Managers/NetworkManager.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/NetworkManager~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Views/Cells/ChatsCellView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatsCellView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Views/Cells/MessageBubbleView.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/MessageBubbleView~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatApp/Views/Image/RemoteImage.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/RemoteImage~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatAppTests/ChatAppTests.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/ChatAppTests~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatApp.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

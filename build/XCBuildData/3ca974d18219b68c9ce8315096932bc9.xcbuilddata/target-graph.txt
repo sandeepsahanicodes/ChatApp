@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'ChatAppUITests' in project 'ChatApp'
+➜ Explicit dependency on target 'ChatApp' in project 'ChatApp'
+Target 'ChatAppTests' in project 'ChatApp'
+➜ Explicit dependency on target 'ChatApp' in project 'ChatApp'
+Target 'ChatApp' in project 'ChatApp' (no dependencies)

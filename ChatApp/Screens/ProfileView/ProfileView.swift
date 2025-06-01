@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    //    let user: User
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    UserAvatarRemoteImage(urlString: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s")
+                    UserAvatarRemoteImage(urlString: "")
                         .frame(width: 120, height: 120)
                         .clipShape(.circle)
                     Text("Sandeep Sahani")
@@ -31,9 +32,9 @@ struct ProfileView: View {
                 VStack {
     
                     Button {
-                        print("Log out user!")
+                        viewModel.signOut()
                     } label: {
-                        RoundedButton(text: "Logout", backgroundColor: .red)
+                        RoundedButton(text: "Sign Out", backgroundColor: .red)
                     }
                 }
                 .padding(.top, 30)

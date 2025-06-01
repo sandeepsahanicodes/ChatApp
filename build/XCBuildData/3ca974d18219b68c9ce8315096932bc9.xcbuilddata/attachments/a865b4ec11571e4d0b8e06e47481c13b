@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests-master.dia",
+    "emit-module-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests-master.swiftdeps"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatAppTests/ChatAppTests.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppTests.build/Objects-normal/x86_64/ChatAppTests~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests-master.dia",
+    "emit-module-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests-master.swiftdeps"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatAppUITests/ChatAppUITests.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITests~partial.swiftmodule"
+  },
+  "/Users/sandeepsahanicodes/Desktop/ChatApp/ChatAppUITests/ChatAppUITestsLaunchTests.swift" : {
+    "const-values" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.d",
+    "diagnostics" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.dia",
+    "index-unit-output-path" : "/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.bc",
+    "object" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/sandeepsahanicodes/Desktop/ChatApp/build/ChatApp.build/Debug-iphonesimulator/ChatAppUITests.build/Objects-normal/x86_64/ChatAppUITestsLaunchTests~partial.swiftmodule"
+  }
+}

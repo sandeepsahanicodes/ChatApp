@@ -14,6 +14,7 @@ struct SignUpView: View {
     @State private var confirmPassword: String = ""
     
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
         VStack {
@@ -37,15 +38,38 @@ struct SignUpView: View {
                 
                 InputView(text: $password, title: "Password", placeholder: "Enter your password", isSecured: true)
                 
-                InputView(text: $confirmPassword, title: "Confirm Password", placeholder: "Enter your password", isSecured: true)
+                ZStack(alignment: .trailing) {
+                    InputView(text: $confirmPassword, title: "Confirm Password", placeholder: "Enter your password", isSecured: true)
+                    
+                    if !password.isEmpty && !confirmPassword.isEmpty {
+                        if confirmPassword == password {
+                            Image(systemName: "checkmark.circle.fill")
+                                .imageScale(.medium)
+                                .fontWeight(.bold)
+                                .foregroundStyle(.green)
+                        } else {
+                            Image(systemName: "xmark.circle.fill")
+                                .imageScale(.medium)
+                                .fontWeight(.bold)
+                                .foregroundStyle(.red)
+                        }
+                    }
+                }
+                
             }
             .padding(.horizontal)
             
             Button {
                 print("Register the user")
+                Task {
+                    try await viewModel.createUser(fullName: fullName, withEmail: email, password: password)
+                }
             } label: {
                 RoundedButton(text: "Sign Up", backgroundColor: .blue)
-            }.padding(.top, 30)
+            }
+            .padding(.top, 30)
+            .disabled(!formIsValid)
+            .opacity(formIsValid ? 1.0 : 0.5)
             
             Spacer()
             
@@ -64,6 +88,17 @@ struct SignUpView: View {
     }
 }
 
+// MARK: - AuthenticationFormProtocol
+extension SignUpView: AuthenticationFormProtocol {
+    var formIsValid: Bool {
+        return !email.isEmpty
+        && email.isValidEmail
+        && !password.isEmpty
+        && password.count > 5
+        && confirmPassword == password
+        && !fullName.isEmpty
+    }
+}
 #Preview {
     SignUpView()
 }

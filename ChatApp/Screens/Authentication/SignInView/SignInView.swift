@@ -11,6 +11,7 @@ struct SignInView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         NavigationStack {
             VStack {
@@ -28,7 +29,7 @@ struct SignInView: View {
                     InputView(text: $email, title: "Email Address", placeholder: "Enter your email")
                         .textInputAutocapitalization(.never)
                     
-                    InputView(text: $password, title: "Password", placeholder: "Enter your password")
+                    InputView(text: $password, title: "Password", placeholder: "Enter your password", isSecured: true)
                 }
                 .padding(.horizontal)
                
@@ -37,10 +38,17 @@ struct SignInView: View {
             
             Button {
                 print("Login user")
+                print(email, password)
+                Task {
+                    try await viewModel.signIn(withEmail: email, password: password)
+                }
             } label: {
                 RoundedButton(text: "Sign In", backgroundColor: .blue)
-            }.padding(.top, 30)
-            
+            }
+            .disabled(!formIsValid)
+            .opacity(formIsValid ? 1.0 : 0.5)
+            .padding(.top, 30)
+             
             Spacer()
             
             NavigationLink {
@@ -49,11 +57,21 @@ struct SignInView: View {
             } label: {
                 HStack {
                     Text("Don't have an account?")
-                    Text("Sign up")
+                    Text("Sign Up")
                         .fontWeight(.semibold)
                 }
             }
         }
+    }
+}
+
+// MARK: - AuthenticationFormProtocol
+extension SignInView: AuthenticationFormProtocol {
+    var formIsValid: Bool {
+        return !email.isEmpty
+        && email.isValidEmail
+        && !password.isEmpty
+        && password.count > 5
     }
 }
 
