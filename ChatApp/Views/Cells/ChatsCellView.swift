@@ -43,7 +43,7 @@ struct ChatsCellView: View {
             }
             Spacer()
         }
-        .frame(height: 100)
+        .frame(height: 70)
     }
 }
 
