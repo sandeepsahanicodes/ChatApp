@@ -19,6 +19,7 @@ struct ChatsView: View {
             .navigationTitle("Chats")
             .navigationDestination(for: Chat.self, destination: { chat in
                 ChattingView(chat: chat, messages: MockMessageData.mockMessages)
+                    .toolbarVisibility(.hidden, for: .tabBar)
                 })
             .listStyle(.plain)
         }
