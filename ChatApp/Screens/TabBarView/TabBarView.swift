@@ -12,6 +12,7 @@ struct TabBarView: View {
     var body: some View {
         TabView {
             Tab("Chats", systemImage: "message") {
+//                ChatsView(chats: [])
                 ChatsView(chats: MockData.chatList)
             }
             Tab("Profile", systemImage: "person.crop.circle.fill") {

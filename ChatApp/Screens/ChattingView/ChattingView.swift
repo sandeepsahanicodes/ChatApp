@@ -56,7 +56,11 @@ struct ChattingView: View {
                 
                 Button {
                     // message sending logic.
+                    print(message.trimmingCharacters(in: .whitespaces))
+                    
+                    print(message.isEmpty)
                     self.message = ""
+                    
                 } label: {
                     Image(systemName: "paperplane.circle.fill")
                         .resizable()
